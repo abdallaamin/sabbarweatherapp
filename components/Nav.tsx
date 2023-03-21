@@ -41,7 +41,7 @@ const Nav = (props: Props) => {
                 <div>
                 <Link
                     legacyBehavior
-                    href="https://github.com/abdallaamin"
+                        href="https://github.com/abdallaamin/sabbarweatherapp"
                     target="_blank"
                     rel="noopener noreferrer">
                     <a style={{ color: 'white' }}>

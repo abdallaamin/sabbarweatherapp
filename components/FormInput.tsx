@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const MyPage = () => {
+const MyForm = () => {
     const [Latitude, setLatitude] = useState('');
     const [Longitude, setLongitude] = useState('');
     const [city, setCity] = useState('');
@@ -115,7 +115,9 @@ const MyPage = () => {
                 </div>
             </div>
         </div>
+        
+
     );
 };
 
-export default MyPage;
+export default MyForm;
