@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <div className="flex justify-center "></div>
           <button className="w-1/12 rounded-lg bg-orange-200" onClick={addComponent}>+</button>
           {components.map((component) => (
-            <div className="mx-auto ">
+            <div className="mx-auto " key={component.id}>
               <FormInput key={component.id} index={component.id} />
               </div>
           ))}
