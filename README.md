@@ -9,8 +9,13 @@ as for everything related to how i started the app or how i was thinking while i
 
 ## screenshots 
 
+![sabbar1](https://user-images.githubusercontent.com/26660809/227757582-da74d283-09ab-4ff7-a17c-1e47c8f8135c.png)
 
+![sabbar2](https://user-images.githubusercontent.com/26660809/227757587-3aeb955e-aa65-4a8a-9119-55ddbb7f6303.png)
 
+![sabbar 3](https://user-images.githubusercontent.com/26660809/227757595-215b8b0c-e6a0-4ddd-9785-aecd602032b1.png)
+
+![sabbar 4](https://user-images.githubusercontent.com/26660809/227757606-17f62876-dc44-418f-abc9-ec2ff356254f.png)
 
 ## Getting Started
 
