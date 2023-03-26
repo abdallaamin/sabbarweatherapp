@@ -7,6 +7,11 @@ this read me file will contain insruction on how to run the project for local de
 
 as for everything related to how i started the app or how i was thinking while i came up with the solution you can find it within the website itself , on the 'Surprise!' tab [surprise!](https://sabbarweatherapp.vercel.app/explanation)
 
+## screenshots 
+
+
+
+
 ## Getting Started
 
 First, run the development server:
