@@ -1,39 +1,16 @@
 import React from 'react';
-import ReactGoogleSlides from "react-google-slides";
 
-interface ReactGoogleSlidesProps {
-  slidesLink: string;
-  loop?: boolean;
-  slideDuration?: number;
-  showControls?: boolean;
-  position?: number;
-  height?: string | number;
-  width?: string | number;
-  containerStyle?: object;
-  slideStyle?: object;
-};
 
-const SlideShow = (ReactGoogleSlidesProps: ReactGoogleSlidesProps) => {
+
+const SlideShow = () => {
   return (
     <>
-      <div className='flex w-full justify-center align-center pt-5'>
-      <h1 style={{fontSize:25 , fontWeight:'bold'}}>Hello There good people of Sabbar  
+      <div className='flex flex-col justify-center m-5 pt-5'>
+        <h1 style={{ fontSize: 25, fontWeight: 'bold' }}>Hello There good people of Sabbar
           <h2>please have a look at this presentation as I put all the explanantion , Architecture , thoughts and the process into it </h2></h1>
-
-      
-    </div>
-    <div className='flex  w-full justify-center item-center align-center pt-15'>
-    <ReactGoogleSlides
-      width={1140}
-      height={680}
-      slidesLink="https://docs.google.com/presentation/d/1OlB-iclkzQjHiRCqf1SQCIva8nvpg69EUVrxSO5tHG8/edit?usp=sharing"
-      slideDuration={5}
-      position={1}
-      showControls
-      loop
-    />
-    </div>
-    </>
+      <iframe className='flex justify-center pt-5' src="https://docs.google.com/presentation/d/e/2PACX-1vQm8wc_4ZsDUhhi8ZGtKL4ybKsU9Ot8p6ngWyRkSCgy1hz6zHZRatF6WWaw1Mzz5PnmP5vK2dFoYD7R/embed?start=true&loop=true&delayms=3000"  width="960" height="569" ></iframe>
+      </div>
+      </>
   );
 }
 export default SlideShow;
