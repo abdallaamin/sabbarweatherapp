@@ -1,11 +1,10 @@
-import React ,{useState} from 'react'
-import { City } from '.';
-import cities from "../lib/citylist.json";
+import React  from 'react'
+// import cities from "../lib/citylist.json";
 
 type Props = {}
 
 const citylist = (props: Props) => {
-    const [cities, setCities] = useState<City[]>([])
+    // const [cities, setCities] = useState<City[]>([])
 
     // let cityList = cities.map((city) => {
   return (
