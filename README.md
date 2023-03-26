@@ -1,4 +1,4 @@
-##Hello There Sabbar people , 
+# Hello There Sabbar people  
 I am happy to welcome you here and to walk you through how to run this project on your local machine , 
 Also i took the extra mile and deployed my entire solution to production and now its fully working and you can check it from here ['Live Demo'](https://sabbarweatherapp.vercel.app/)
 as you can see : This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). and its deployed and hosted on [vercel](https://vercel.com)
