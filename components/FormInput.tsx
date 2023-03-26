@@ -43,11 +43,11 @@ const WeatherForm = ({ index, onSave }: FormComponentProps) => {
         setEndDate(end);
     };
 
-    const handleLatitudeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleLatitudeChange = (event: React.ChangeEvent<any>) => {
         setLatitude(event.target.value);
     };
 
-    const handleLongitudeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleLongitudeChange = (event: React.ChangeEvent<any>) => {
         setLongitude(event.target.value);
     };
 
@@ -56,7 +56,7 @@ const WeatherForm = ({ index, onSave }: FormComponentProps) => {
         setCity(value)
         let matchingCities: City[] = [];
         if (value.length > 3) {
-            for (let city of cities) {
+            for (let city of cities as City[]) {
                 if (matchingCities.length >= 5) {
                     break;
                 }
@@ -116,7 +116,7 @@ const WeatherForm = ({ index, onSave }: FormComponentProps) => {
                         tension: 0.1,
                     });
                 }
-                setData({ labels, datasets });
+                setData({ labels, datasets }  as any);
             } catch (error) {
                 console.error(error);
             }
