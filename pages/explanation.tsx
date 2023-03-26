@@ -22,7 +22,6 @@ const SlideShow = (ReactGoogleSlidesProps: ReactGoogleSlidesProps) => {
 
       
     </div>
-   
     <div className='flex  w-full justify-center item-center align-center pt-15'>
     <ReactGoogleSlides
       width={1140}
